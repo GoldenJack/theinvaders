@@ -1,0 +1,33 @@
+{
+  "name": "j-gold",
+  "version": "1.0.0",
+  "description": "fw j-gold",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack-dev-server --mode development --open",
+    "build": "webpack --mode production --progress --hide-modules"
+  },
+  "author": "GoldenJack",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.7.0",
+    "copy-webpack-plugin": "^4.5.2",
+    "css-loader": "^0.28.11",
+    "extract-text-webpack-plugin": "^4.0.0-beta.0",
+    "file-loader": "^1.1.11",
+    "fs": "0.0.1-security",
+    "html-webpack-plugin": "^3.2.0",
+    "mocha": "^5.2.0",
+    "node-sass": "^4.9.0",
+    "resolve-url-loader": "^2.3.0",
+    "sass-loader": "^7.0.3",
+    "webpack": "^4.16.2",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.5"
+  },
+  "dependencies": {
+    "bootstrap": "^4.1.2"
+  }
+}
